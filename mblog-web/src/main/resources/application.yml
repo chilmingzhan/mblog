@@ -20,9 +20,9 @@ spring:
 
     datasource:
         driver-class-name: com.mysql.jdbc.Driver
-        url: jdbc:mysql://localhost/db_mblog?useSSL=false&characterEncoding=utf8
-        username: root
-        password: root
+        url: jdbc:mysql://112.74.67.179/mblog?useSSL=false&characterEncoding=utf8
+        username: uwin_test
+        password: uwin@test
 
     jpa:
         database: mysql
@@ -60,4 +60,4 @@ site.store.domain: false
 # 资源域名, resource.domain : true 是有效
 # 配置域名, 将域名的根目录指向 store.root 配置的地址
 # ---------------------------------
-site.store.host: http://localhost:8080/mblog
+#site.store.host: http://localhost:8080/mblog
